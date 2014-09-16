@@ -15,6 +15,10 @@
 		<id>nexus</id>
 		<url>http://teamcitydbsvr01:8082/nexus/content/repositories/snapshots/</url>
 	</snapshotRepository>
+  	<repository>
+		<id>nexus</id>
+		<url>http://teamcitydbsvr01:8082/nexus/content/repositories/releases/</url>
+	</repository>
   </distributionManagement>
 
 <!--  <modules>
