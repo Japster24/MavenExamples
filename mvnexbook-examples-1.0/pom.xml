@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mvnexbook</groupId>
   <version>0.1-SNAPSHOT</version>
-  <artifactId>1</artifactId>
+  <artifactId>maven-example</artifactId>
   <packaging>pom</packaging>
   <name>Maven by Example, Example Code</name>
   <description>Example Code for Maven: By Example</description>
@@ -48,7 +48,7 @@
   </modules> -->
   
   <build>
-    <finalName>mvnexbook-examples-${project.version}</finalName>
+    <finalName>1-${project.version}</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
