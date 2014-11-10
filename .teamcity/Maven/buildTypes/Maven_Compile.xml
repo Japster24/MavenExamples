@@ -70,7 +70,9 @@ org.sonatype.*]]></param>
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Maven_HttpsGithubComJapster24MavenExamplesGitRefsHeadsMaster" />
+      <vcs-entry-ref root-id="Maven_HttpsGithubComJapster24MavenExamplesGitRefsHeadsMaster">
+        <checkout-rule rule="-:.teamcity/Maven" />
+      </vcs-entry-ref>
     </vcs-settings>
     <requirements />
     <build-triggers>
