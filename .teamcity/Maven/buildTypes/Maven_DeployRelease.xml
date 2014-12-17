@@ -10,6 +10,7 @@
       <option name="showDependenciesChanges" value="true" />
     </options>
     <parameters>
+      <param name="areyousure" value="" spec="checkbox checkedValue='true' description='Check if you want to deploy a build' uncheckedValue='false' label='To deploy or not to deploy' display='prompt'" />
       <param name="mavenVer" value="" spec="select label_1='empty' data_5='versions:set -DnewVersion=%ver%' data_1='' display='prompt' label='Release Type' data_3='versions:set -DnewVersion=%ver%-SNAPSHOT' label_3='snapshot' label_5='release'" />
       <param name="ver" value="0.1" />
     </parameters>
