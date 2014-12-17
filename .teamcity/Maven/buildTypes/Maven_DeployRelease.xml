@@ -19,9 +19,7 @@
         <parameters>
           <param name="jetbrains_powershell_bitness" value="x86" />
           <param name="jetbrains_powershell_execution" value="PS1" />
-          <param name="jetbrains_powershell_script_code"><![CDATA[echo "are you sure is: " %areyousure%
-
-If(%areyousure% -eq true) {return 0}
+          <param name="jetbrains_powershell_script_code"><![CDATA[If(%areyousure% -eq true) {return 0}
 Else {return 1}]]></param>
           <param name="jetbrains_powershell_script_mode" value="CODE" />
           <param name="org.jfrog.artifactory.selectedDeployableServer.deployerUsername" value="admin" />
