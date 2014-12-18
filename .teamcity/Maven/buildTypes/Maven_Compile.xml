@@ -44,11 +44,11 @@
           <param name="jetbrains_powershell_execution" value="PS1" />
           <param name="jetbrains_powershell_script_code"><![CDATA[If('%check%' -eq 'true') 
 {
-   return 0
+   'verified'
 }
 Else 
 {
-   return 1
+   'continue check failed'
 }]]></param>
           <param name="jetbrains_powershell_script_mode" value="CODE" />
           <param name="org.jfrog.artifactory.selectedDeployableServer.deployerUsername" value="admin" />
