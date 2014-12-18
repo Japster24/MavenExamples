@@ -111,6 +111,14 @@ org.sonatype.*]]></param>
           <param name="xmlReportParsing.reportType" value="findBugs" />
         </parameters>
       </extension>
+      <extension id="BUILD_EXT_2" type="BuildFailureOnMessage">
+        <parameters>
+          <param name="buildFailureOnMessage.conditionType" value="contains" />
+          <param name="buildFailureOnMessage.messagePattern" value="Deploy check failed" />
+          <param name="buildFailureOnMessage.outputText" value="Deploy check failed" />
+          <param name="buildFailureOnMessage.reverse" value="false" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
