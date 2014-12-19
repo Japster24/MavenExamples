@@ -46,6 +46,8 @@
           <param name="jetbrains_powershell_script_code"><![CDATA[If('%check%' -eq 'true') 
 {
    'Deploy verified'
+   $date = get-date -f "yyyyMMdd-HHmmss"
+   %newValue% = $date
 }
 Else 
 {
