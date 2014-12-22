@@ -48,7 +48,7 @@
 {
    'Deploy verified'
    $date = get-date -f "yyyyMMdd-HHmmss"
-   %newValue% = $date
+   Write-Host "##teamcity[setParameter name='env.timestamp' value='date']"
 }
 Else 
 {
