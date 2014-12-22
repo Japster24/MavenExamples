@@ -16,6 +16,7 @@
     </disabled-settings>
     <parameters>
       <param name="check" value="" spec="checkbox checkedValue='true' uncheckedValue='false' label='deploy' display='prompt'" />
+      <param name="env.timestamp" value=" " />
       <param name="mavenVer" value="" spec="select label_1='empty' data_5='versions:set -DnewVersion=%ver%' data_1='' display='prompt' label='Release Type' data_3='versions:set -DnewVersion=%ver%-SNAPSHOT' label_3='snapshot' label_5='release'" />
       <param name="newValue" value=" " />
       <param name="pass" value="zxx775d03cbe80d301b" spec="password display='prompt'" />
