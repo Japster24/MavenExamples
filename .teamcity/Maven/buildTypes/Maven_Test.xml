@@ -3,9 +3,6 @@
   <name>Test</name>
   <description />
   <settings>
-    <options>
-      <option name="showDependenciesChanges" value="true" />
-    </options>
     <disabled-settings>
       <setting-ref ref="mavenSnapshotDependencyTrigger" />
     </disabled-settings>
