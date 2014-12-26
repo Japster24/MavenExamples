@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
-
-<build-type>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="62feb0c0-6773-4d8e-a92f-f43443f13baf" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
   <name>Acceptance</name>
   <description />
   <settings>

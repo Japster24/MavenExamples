@@ -9,8 +9,8 @@
       <option name="showDependenciesChanges" value="true" />
     </options>
     <disabled-settings>
-      <setting-ref ref="RUNNER_17" />
       <setting-ref ref="BUILD_EXT_1" />
+      <setting-ref ref="RUNNER_17" />
     </disabled-settings>
     <parameters>
       <param name="check" value="" spec="checkbox checkedValue='true' uncheckedValue='false' label='deploy' display='prompt'" />
