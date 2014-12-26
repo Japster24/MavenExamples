@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
-
-<build-type paused="true">
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="f9621c88-d63b-48f7-a325-ea2aabd7eb03" paused="true" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
   <name>Test</name>
   <description />
   <settings>
     <options>
-      <option name="cleanBuild" value="true" />
       <option name="showDependenciesChanges" value="true" />
     </options>
     <disabled-settings>
@@ -57,7 +54,7 @@
       </build-trigger>
     </build-triggers>
     <artifact-dependencies>
-      <dependency sourceBuildTypeId="Maven_Compile" cleanDestination="false" cleanDestinationAfterBuild="false">
+      <dependency sourceBuildTypeId="Maven_Compile" cleanDestination="false">
         <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
         <artifact sourcePath="Compile_v*.zip =&gt; %teamcity.build.workingDir%" />
       </dependency>
