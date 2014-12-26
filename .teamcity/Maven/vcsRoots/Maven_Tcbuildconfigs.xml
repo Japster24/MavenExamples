@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="7daf5142-699e-48bc-b79a-fa229bcb8d49" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
+  <name>tcbuildconfigs</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="zxx6ec63c8356316afaaac38274b62fd651" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://Japster24@bitbucket.org/Japster24/tcbuildconfigs.git" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="Japster24" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+

@@ -23,6 +23,7 @@
       <vcs-entry-ref root-id="Maven_HttpsGithubComJapster24MavenExamplesGitRefsHeadsMaster">
         <checkout-rule rule="-:.teamcity" />
       </vcs-entry-ref>
+      <vcs-entry-ref root-id="Maven_Tcbuildconfigs" />
     </vcs-settings>
     <requirements />
     <build-triggers />
