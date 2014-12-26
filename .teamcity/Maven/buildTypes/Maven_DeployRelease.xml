@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE build-type SYSTEM "../../../project-config.dtd">
-
-<build-type>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="a1212ed5-cad2-4dae-aeb2-d87937654e6e" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/9.0/project-config.xsd">
   <name>Production</name>
   <description />
   <settings>
@@ -48,6 +46,16 @@ Else
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <build-extensions>
+      <extension id="BUILD_EXT_3" type="VcsLabeling">
+        <parameters>
+          <param name="branchFilter" value="+:&lt;default&gt;" />
+          <param name="labelingPattern" value="build-%system.build.number%" />
+          <param name="successfulOnly" value="true" />
+          <param name="vcsRootId" value="Maven_HttpsGithubComJapster24MavenExamplesGitRefsHeadsMaster" />
+        </parameters>
+      </extension>
+    </build-extensions>
     <dependencies>
       <depend-on sourceBuildTypeId="Maven_Deploy">
         <options>
