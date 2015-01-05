@@ -3,18 +3,31 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mvnexbook</groupId>
   <version>0.1-SNAPSHOT</version>
-  <artifactId>mvnex-examples</artifactId>
+  <artifactId>maven-example</artifactId>
   <packaging>pom</packaging>
   <name>Maven by Example, Example Code</name>
   <description>Example Code for Maven: By Example</description>
   
   <url>http://sonatype.com/book</url>
-
   <distributionManagement>
-  	<snapshotRepository>
+    <snapshotRepository>
+        <id>TeamCityDBSvr01</id>
+        <name>TeamCityDBSvr01-snapshots</name>
+        <url>http://10.40.4.138:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+    <repository>
+        <id>TeamCityDBSvr01</id>
+        <name>TeamCityDBSvr01-releases</name>
+        <url>http://10.40.4.138:8081/artifactory/libs-release-local</url>
+    </repository>
+  	<!-- <snapshotRepository>
 		<id>nexus</id>
 		<url>http://teamcitydbsvr01:8082/nexus/content/repositories/snapshots/</url>
 	</snapshotRepository>
+  	<repository>
+		<id>nexus</id>
+		<url>http://teamcitydbsvr01:8082/nexus/content/repositories/releases/</url>
+	</repository> -->
   </distributionManagement>
 
 <!--  <modules>
@@ -35,7 +48,7 @@
   </modules> -->
   
   <build>
-    <finalName>mvnexbook-examples-${project.version}</finalName>
+    <finalName>1-${project.version}</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
